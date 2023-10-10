@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  color: white !important;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black !important;
+  transition: all 0.3s;
+}
+
+.home__main {
+  background-image: url("https://images.wallpaperscraft.com/image/single/camera_gray_photo_199788_1920x1080.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 5em !important;
+  text-align: center;
+  width: 100%;
+}
+@media (max-width: 912px) {
+  h1 {
+    font-size: 300% !important;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 250% !important;
+  }
+}
+
+.home__btn-learn {
+  background-color: white !important;
+  color: black !important;
+  width: 20%;
+  margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .home__btn-learn {
+    width: 60% !important;
+  }
+}
+
+.home__btn-learn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.home__btn-sub {
+  background-color: white !important;
+  width: 20%;
+  float: right;
+  margin-left: 5px;
+}
+@media (max-width: 768px) {
+  .home__btn-sub {
+    width: 60% !important;
+  }
+}
+
+.home__btn-sub:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.home__main-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=home.css.map */

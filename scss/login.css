@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(60deg, rgb(217, 78, 221) 53%, rgb(0, 212, 255) 76%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 40% !important;
+  height: 80% !important;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+@media (max-width: 912px) {
+  .login {
+    width: 100% !important;
+  }
+}
+@media (max-width: 480px) {
+  .login {
+    height: 100% !important;
+  }
+}
+
+.login__btn-social {
+  width: 70%;
+}
+@media (max-width: 480px) {
+  .login__btn-social {
+    width: 100% !important;
+  }
+}
+
+.login__btn-facebook {
+  background-color: rgb(45, 45, 153) !important;
+  color: white !important;
+  width: 48%;
+}
+
+.login__btn-facebook:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.login__btn-google {
+  background-color: white !important;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.8);
+  float: right;
+  width: 48%;
+}
+
+.login__btn-google:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.login__form {
+  width: 70%;
+}
+@media (max-width: 480px) {
+  .login__form {
+    width: 100% !important;
+  }
+}
+
+.login__forgot_password {
+  color: gray !important;
+}
+
+.login__btn-signIn {
+  width: 100%;
+  background-color: black !important;
+  color: white !important;
+}
+
+.login__btn-signIn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+span {
+  color: gray !important;
+}
+
+.login__signUp {
+  color: gray !important;
+}/*# sourceMappingURL=login.css.map */
