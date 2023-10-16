@@ -1,2 +1,3 @@
 - Link github: https://github.com/nguyenngochuy00/landingpage_signin-home
-- Link web: 
+- Technology used: HTML, CSS/SCSS, JS
+- Library: Fontawesome
